@@ -10,7 +10,7 @@ The subfolders carry the name of the technique and within each subfolder there i
 
 This repository will be updated every one or two weeks.
 
-Till date (15/11/2020), most of the techniques I've learnt over till now, consists of losless compression techniques and most of them are used to encode strings. The same can be used for text files, with minor modification requirements. All the files consists of the decoding part as well. The techniques are:
+Till date (15/11/2020), most of the techniques I've learnt over till now, consists of lossless compression techniques and most of them are used to encode strings. The same can be used for text files, with minor modification requirements. All the files consists of the decoding part as well. The techniques are:
 1. Huffman Coding
 2. Run Length Encoding<br>
   2.1. For alphabet runs<br>
@@ -22,6 +22,8 @@ Till date (15/11/2020), most of the techniques I've learnt over till now, consis
   6.1. LZ77<br>
   6.2. LZ78<br>
   6.3. LZW<br>
+7. FSE Coding (forked from https://github.com/dbkaplun/fse-made-easy). Finite State Entropy (FSE) is an entropy coder which combines the speed of Huffman coding
+(which is suboptimal) with the compression ratio of arithmetic coding (which is slow).
 
 
 <hr>
